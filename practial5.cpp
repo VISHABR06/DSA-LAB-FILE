@@ -21,7 +21,7 @@ int main() {
                 swap(arr[j], arr[j + 1]);
         }
 
-        // Print array after each pass
+        
         for (int k = 0; k < n; k++)
             cout << arr[k] << " ";
         cout << endl;
